@@ -106,7 +106,7 @@ section.hero img{
     letter-spacing: 1.25px;
     line-height: 56px;
     margin-bottom: 16px;
-
+    font-weight: normal;
 }
 
 .hore-container p{
@@ -134,4 +134,40 @@ section.hero img{
     text-align: center;
     border: none;
     text-transform: uppercase;
+}
+
+section.bast-sellers{
+    padding-top: 80px;
+}
+
+section.bast-sellers h2{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+section.bast-sellers .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.bast-sellers hr{
+    border: none;
+    border-top: 5px solid #67f11d;
+    width: 66px;
+}
+
+section.bast-sellers .product-slider {
+
+}
+
+section.bast-sellers .product-slider .product{
+    
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    width: 33%;
+    text-align: center;
 }
